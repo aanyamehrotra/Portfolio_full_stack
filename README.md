@@ -1,21 +1,20 @@
-### To kickstart the boilerplate, run the following commands:
+# Portfolio Full Stack
 
-```bash
-yarn
+Aanya Mehrotra's Full Stack Portfolio
 
-yarn dev
-```
+## Project Structure
 
-### If you do not have yarn installed, delete the `yarn.lock` file and install via npm,
+This is a full-stack application with the following directories:
 
-```bash
-npm install
+- `client/`: The React frontend application (Vite + React)
+- `server/`: The Node.js/Express backend (For handling contact form submissions, etc.)
 
-npm run dev
-```
+## Deployment Instructions (Vercel, Netlify, Render)
 
-### Or install yarn:
+When deploying this project, make sure to set the **Root Directory** to `client` in your hosting provider's settings.
 
-```bash
-npm install --global yarn
-```
+**For Vercel:**
+1. Import the repository.
+2. Under "Framework Preset", it will automatically detect Vite.
+3. Under **"Root Directory"**, click Edit and type `client`.
+4. Click Deploy.
